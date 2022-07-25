@@ -1,0 +1,7 @@
+package com.example.moibilebooksapp.ui.fragments
+
+import androidx.fragment.app.Fragment
+import com.example.moibilebooksapp.R
+
+class SavedBooksFragment : Fragment(R.layout.fragment_saved_books) {
+}
