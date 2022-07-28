@@ -1,6 +1,5 @@
 package com.example.moibilebooksapp.models
 
-import com.example.bookstorekcs.model.VolumeInfo
 
 data class Item(
     val etag: String,

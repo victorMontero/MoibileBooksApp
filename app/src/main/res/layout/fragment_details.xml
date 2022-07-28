@@ -108,7 +108,7 @@
         tools:text="https://google.com" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_to_favorite_episodes"
+        android:id="@+id/fab_to_favorite_books"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
