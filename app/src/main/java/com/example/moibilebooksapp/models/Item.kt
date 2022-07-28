@@ -1,10 +1,17 @@
 package com.example.moibilebooksapp.models
 
+import androidx.room.Entity
+import androidx.room.Ignore
+import androidx.room.PrimaryKey
 
+//
+//@Entity(
+//    tableName = "items"
+//)
 data class Item(
-    val etag: String,
+   // @PrimaryKey(autoGenerate = true)
+    val internalId: Int,
     val id: String,
-    val kind: String,
-    val selfLink: String,
+//    @Ignore
     val volumeInfo: VolumeInfo
 )
