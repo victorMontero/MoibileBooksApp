@@ -1,5 +1,7 @@
 package com.example.moibilebooksapp.models
 
+import java.io.Serializable
+
 //
 //@Entity(
 //    tableName = "volumeInfo"
@@ -12,4 +14,4 @@ data class VolumeInfo(
     val id: String,
 //    @PrimaryKey(autoGenerate = true)
 //    val internalId: Int,
-)
+): Serializable
